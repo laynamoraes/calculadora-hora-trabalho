@@ -24,7 +24,7 @@ O projeto é uma calculadora que nos retorna como resultado o valor da hora trab
 
 ## ⌨ Resultado
 
-GitHub Pages: [Link]()
+GitHub Pages: [Link](https://laynamoraes.github.io/calculadora-hora-trabalho/)
 
 <br>
 
