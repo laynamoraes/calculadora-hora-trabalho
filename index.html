@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/calculator-icon.svg" type="image/x-icon">
+    <title>Horas de trabalho</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+        <img src="https://cdn-icons-png.flaticon.com/512/190/190708.png" alt="Imagem de uma calculadora">
+        <h1>
+            <span>CALCULAR HORA</span>
+            <br>
+            <span>DE TRABALHO</span>
+        </h1>
+        </header>
+        <div class="form">
+        <form id="form">
+            <label for="horas-diarias">Horas diárias trabalhadas:</label>
+            <input type="number" id="horas-diarias">
+
+            <label for="dias-mes">Dias trabalhados no mês:</label>
+            <input type="number" id="dias-mes">
+
+            <label for="despesas">Despesas fixas mensais:</label>
+            <input type="number" id="despesas">
+
+            <label for="equipamento">Valor do seu equipamento:</label>
+            <input type="number" id="equipamento">
+
+            <button id="calcular">CALCULAR AGORA</button>
+        </form>
+        </div>
+
+        <div id="resultado" class="resultado hidden">
+            <h3>VALOR DA HORA TRABALHADA</h3>
+            <span id="valor-total">R$ 00,00</span>
+            <p>Nesse valor você irá cobrir as suas despesas e ter 50% de lucro</p>
+        </div>
+
+        <footer>Feito com 🤍 por 
+           <a href="https://laynamoraes.github.io/pagina-links/" target="_blank">Layna Moraes</a>
+        </footer>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
